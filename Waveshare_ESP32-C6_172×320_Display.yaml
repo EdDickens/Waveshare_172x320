@@ -112,7 +112,7 @@ light:
 #---------------------------------------------------------------------------------------------------
 display:
   - platform: ili9xxx
-    id: ws_display_display
+    id: ws_display
     model: ST7789V
     spi_id: lcd
     color_palette: 8BIT
