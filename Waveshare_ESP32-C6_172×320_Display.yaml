@@ -38,6 +38,7 @@ ota:
     password: !secret ota_password
 #---------------------------------------------------------------------------------------------------
 wifi:
+  min_auth_mode: wpa2
   ssid: !secret wifi_ssid
   password: !secret wifi_password
   fast_connect: off
